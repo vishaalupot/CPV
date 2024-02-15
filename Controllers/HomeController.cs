@@ -17,6 +17,8 @@ using Newtonsoft.Json.Linq;
 
 namespace CPV_Mark3.Controllers
 {
+
+    private int np = 2;
     public class HomeController : Controller
     {
         private CPV_DB1Entities db = new CPV_DB1Entities();
